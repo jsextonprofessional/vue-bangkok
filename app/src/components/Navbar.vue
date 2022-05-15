@@ -1,11 +1,14 @@
+<script setup lang="ts">
+import { RouterLink } from "vue-router";
+
+</script>
 <template>
-	<nav class="navbar sticky-top navbar-light bg-warning">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="#">BANGKOK INN</a>
+	<div class="border-4 border-black flex justify-between px-12 py-4">
+		<RouterLink to="/" class="text-2xl">BANGKOK INN</RouterLink>
+		<div class="flex gap-2">
+			<RouterLink to="/menu">MENU</RouterLink>
+			<RouterLink to="/about">ABOUT</RouterLink>
+			<RouterLink to="/order">ORDER</RouterLink>
 		</div>
-	</nav>
-			<h1>BANGKOK INN</h1>
-			<h2>MENU</h2>
-			<h2>ABOUT</h2>
-			<h2>ORDER</h2>
+	</div>
 </template>
