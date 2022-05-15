@@ -15,11 +15,15 @@ import Extras from "../components/menu/Extras.vue";
 <template>
 	MENU VIEW
 	<Appetizers />
-	<Soup />
-	<Salad />
+	<div class="grid grid-cols-2">
+		<Soup />
+		<Salad />
+	</div>
 	<Curry />
-	<Noodles />
-	<Rice />
+	<div class="grid grid-cols-2">
+		<Noodles />
+		<Rice />
+	</div>
 	<Specialties />
 	<StirFry />
 	<LunchSpecials />
