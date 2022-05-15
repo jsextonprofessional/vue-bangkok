@@ -1,7 +1,29 @@
 <script setup lang="ts">
-	import LandingPage from "@/components/LandingPage.vue";
+import Appetizers from "@/components/menu/Appetizers.vue";
+import Soup from "@/components/menu/Soup.vue";
+import Salad from "../components/menu/Salad.vue";
+import Curry from "../components/menu/Curry.vue";
+import Noodles from "../components/menu/Noodles.vue";
+import Rice from "../components/menu/Rice.vue";
+import Specialties from "../components/menu/Specialties.vue";
+import StirFry from "../components/menu/StirFry.vue";
+import LunchSpecials from "../components/menu/LunchSpecials.vue";
+import Drinks from "../components/menu/Drinks.vue";
+import Desserts from "../components/menu/Desserts.vue";
+import Extras from "../components/menu/Extras.vue";
 </script>
 <template>
 	MENU VIEW
-	<landing-page />
+	<Appetizers />
+	<Soup />
+	<Salad />
+	<Curry />
+	<Noodles />
+	<Rice />
+	<Specialties />
+	<StirFry />
+	<LunchSpecials />
+	<Drinks />
+	<Desserts />
+	<Extras />
 </template>
