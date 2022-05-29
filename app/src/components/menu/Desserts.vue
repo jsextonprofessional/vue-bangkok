@@ -1,6 +1,17 @@
 <template>
-	<h1 class="text-center">Desserts</h1>
 	<div>
-		<h1>$$$</h1>
+		<h1 class="text-center">Desserts</h1>
+		<div class="border-4 border-rose-200 ml-12 mr-6">
+Sweet Rice with Egg Custard $5.50
+Banana in Sweet Coconut Milk $5.50
+Fried Banana with Ice Cream and Honey $6.50
+Green Tea Ice Cream $3.00
+Thai Tea $3.50
+Thai Coffee $3.50
+Ice Tea (Unsweetened) $2.75
+Hot Jasmine Tea $2.75
+Soft Drinks $1.50
+Coke, Diet Coke, Dr. Pepper, Sprite
+		</div>
 	</div>
 </template>

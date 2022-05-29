@@ -7,7 +7,6 @@ import Noodles from "../components/menu/Noodles.vue";
 import Rice from "../components/menu/Rice.vue";
 import Specialties from "../components/menu/Specialties.vue";
 import StirFry from "../components/menu/StirFry.vue";
-import LunchSpecials from "../components/menu/LunchSpecials.vue";
 import Drinks from "../components/menu/Drinks.vue";
 import Desserts from "../components/menu/Desserts.vue";
 import Extras from "../components/menu/Extras.vue";
@@ -26,8 +25,9 @@ import Extras from "../components/menu/Extras.vue";
 	</div>
 	<Specialties />
 	<StirFry />
-	<LunchSpecials />
 	<Drinks />
-	<Desserts />
-	<Extras />
+	<div class="grid grid-cols-2">
+		<Desserts />
+		<Extras />
+	</div>
 </template>

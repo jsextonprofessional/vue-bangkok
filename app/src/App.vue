@@ -1,12 +1,28 @@
 <script setup lang="ts">
 import { RouterView } from "vue-router";
 import Navbar from "@/components/Navbar.vue";
+// TODO
+// MACRO LAYOUT
+// MICRO LAYOUTS
+// STYLE MENU COMPONENTS
+// STYLE ABOUT AND ORDER COMPONENTS
+// ADD COPYRIGHT FOOTER
+// WRITE ABOUT AND ORDER PAGES
+// STYLE
+// DEPLOY
+// TEST
+// PITCH
+// ASK @ SIMPLIFYING ABOUT
+// REVISE
+// PUBLISH
 </script>
 
 <template>
-  <div class="bg-cyan-300">
+  <div class="bg-cyan-100">
     <Navbar />
-    <RouterView />
+    <div class="mx-40">
+      <RouterView />
+    </div>
   </div>
 </template>
 
