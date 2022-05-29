@@ -1,3 +1,10 @@
 <template>
-	<h1 class="align-middle place-self-center mt-44 text-9xl text-center whitespace-normal">Authentic Thai Cuisine</h1>
+	<RouterLink
+		to="/menu"
+		class="font-medium hover:text-cyan-300 text-4xl text-rose-400"
+	>
+		<button class="border-8 border-transparent hover:border-black mt-24 px-8 py-16 place-self-center text-9xl text-center whitespace-normal">
+			Authentic Thai Cuisine
+		</button>
+	</RouterLink>
 </template>
