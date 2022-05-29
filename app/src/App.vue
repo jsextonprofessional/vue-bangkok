@@ -12,13 +12,13 @@ import Navbar from "@/components/Navbar.vue";
 // DEPLOY
 // TEST
 // PITCH
-// ASK @ SIMPLIFYING ABOUT
+// ASK @ ABOUT, COLOR SCHEME, PRICING, PHOTOS?, 
 // REVISE
 // PUBLISH
 </script>
 
 <template>
-  <div class="bg-cyan-100">
+  <div class="min-h-screen">
     <Navbar />
     <div class="mx-40">
       <RouterView />

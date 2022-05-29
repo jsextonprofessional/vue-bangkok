@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<h1 class="text-center">Appetizers</h1>
-		<div class="border-4 border-rose-400 mx-12">
+		<div class="border-4 border-rose-400 mx-12 rounded-full">
 			<div class="flex justify-around">
 				<div class="">
 					<h4>Corn Patties (4) $7.50</h4>

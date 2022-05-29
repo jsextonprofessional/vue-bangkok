@@ -1,3 +1,6 @@
+<script setup lang="ts">
+import About from "@/components/about/About.vue";
+</script>
 <template>
-ABOUT VIEW
+	<About class="mx-56 my-8"/>
 </template>

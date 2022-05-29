@@ -5,7 +5,7 @@
 	import Phone from "@/components/order/Phone.vue";
 </script>
 <template>
-	<div class="gap-y-4 grid my-6 mx-56">
+	<div class="gap-y-8 grid mx-56 my-8">
 		<Phone />
 		<Favor />
 		<Location />
