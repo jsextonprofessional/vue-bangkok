@@ -12,7 +12,6 @@ import Desserts from "../components/menu/Desserts.vue";
 import Extras from "../components/menu/Extras.vue";
 </script>
 <template>
-	MENU VIEW
 	<Appetizers />
 	<div class="grid grid-cols-2">
 		<Soup />
