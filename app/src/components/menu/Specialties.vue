@@ -1,6 +1,8 @@
 <template>
-	<h1 class="text-center">Specialties</h1>
-	<div class="border-4 hover:shadow-lg hover:border-8 border-rose-400 mx-12">
+		<div class="align-middle bg-black grid place-content-center h-20 mx-auto my-8 px-16 w-60">
+			<h1 class="font-semibold text-center text-4xl text-white">Specialties</h1>
+		</div>
+	<div class="border-8 border-black mx-12">
 		<div>
 			Pad Thai
 With your choice of:

@@ -2,8 +2,8 @@
 import { RouterView } from "vue-router";
 import Navbar from "@/components/Navbar.vue";
 // TODO
-// MACRO LAYOUT
 // MICRO LAYOUTS
+// CHOOSE AND ADD FONT
 // STYLE MENU COMPONENTS
 // STYLE ABOUT AND ORDER COMPONENTS
 // ADD COPYRIGHT FOOTER
@@ -20,7 +20,7 @@ import Navbar from "@/components/Navbar.vue";
 <template>
   <div class="min-h-screen">
     <Navbar />
-    <div class="mx-40">
+    <div class="mt-44 mx-52">
       <RouterView />
     </div>
   </div>
