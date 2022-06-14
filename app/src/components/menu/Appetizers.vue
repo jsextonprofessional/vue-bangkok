@@ -1,9 +1,9 @@
 <template>
 	<div class="my-8">
-		<div class="align-middle bg-black grid place-content-center h-20 mx-auto my-8 px-16 w-60">
+		<div class="align-middle bg-black grid hover:shadow-xl place-content-center h-20 mx-auto my-8 px-16 w-60">
 			<h1 class="font-semibold text-center text-4xl text-white">Appetizers</h1>
 		</div>
-		<div class="border-8 border-black mx-12">
+		<div class="border-8 border-black hover:shadow-xl mx-12">
 			<div class="divide-x-8 divide-black divide-dashed grid grid-cols-2 p-8">
 				<div class="space-y-4 mx-8">
 					<!-- LEFT COLUMN -->
