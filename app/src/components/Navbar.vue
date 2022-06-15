@@ -3,7 +3,7 @@ import { RouterLink } from "vue-router";
 
 </script>
 <template>
-	<div class="bg-white/75 border-8 border-black fixed top-0 flex justify-between px-20 py-8 min-w-full">
+	<div class="bg-white/75 border-8 border-black fixed top-0 flex hover:shadow-xl justify-between px-20 py-8 min-w-full">
 		<div>
 				<RouterLink
 					to="/"
