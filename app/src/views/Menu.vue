@@ -10,29 +10,27 @@ import StirFry from "@/components/menu/StirFry.vue";
 import Drinks from "@/components/menu/Drinks.vue";
 import Desserts from "@/components/menu/Desserts.vue";
 import Extras from "@/components/menu/Extras.vue";
-import MenuLabel from "@/components/menu/menuLabel.vue";
 </script>
 <template>
-	<Appetizers />
-	<div class="grid grid-cols-2">
-		<Soup />
-		<div>
-			<Salad />
-			<MenuLabel class="mx-auto">
-				Curry
-			</MenuLabel>
+	<div class="mx-12">
+		<Appetizers />
+		<div class="grid grid-cols-2">
+			<Soup />
+			<div>
+				<Salad />
+			</div>
 		</div>
-	</div>
-	<Curry />
-	<div class="grid grid-cols-2">
-		<Noodles />
-		<Rice />
-	</div>
-	<Specialties />
-	<StirFry />
-	<Drinks />
-	<div class="grid grid-cols-2">
-		<Desserts />
-		<Extras />
+		<Curry />
+		<div class="grid grid-cols-2">
+			<Noodles />
+			<Rice />
+		</div>
+		<Specialties />
+		<StirFry />
+		<Drinks />
+		<div class="grid grid-cols-2">
+			<Desserts />
+			<Extras />
+		</div>
 	</div>
 </template>
