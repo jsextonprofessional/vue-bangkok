@@ -3,7 +3,7 @@
 		<div class="align-middle bg-black grid h-20 hover:shadow-xl mx-auto my-8 place-content-center px-16 w-1/4">
 			<h1 class="font-semibold text-center text-4xl text-white">Salad</h1>
 		</div>
-		<div class="border-8 border-black hover:shadow-xl ml-12 mx-8 p-4 space-y-4 ">
+		<div class="border-8 border-black hover:shadow-xl mx-12 space-y-4">
 			<div class="flex justify-between">
 				<h4 class="font-medium text-lg">Yam Nur (Beef Salad)</h4>
 				<h4 class="font-medium text-lg">$9.50</h4>

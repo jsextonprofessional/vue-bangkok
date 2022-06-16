@@ -10,15 +10,16 @@ import StirFry from "@/components/menu/StirFry.vue";
 import Drinks from "@/components/menu/Drinks.vue";
 import Desserts from "@/components/menu/Desserts.vue";
 import Extras from "@/components/menu/Extras.vue";
+
+// TODO 4 MENU
+// EVENLY SPACE SALAD SOUP/ADD COMMON margin-x FOR 70/30 RULE. ya dig?
 </script>
 <template>
 	<div class="mx-12">
 		<Appetizers />
-		<div class="grid grid-cols-2">
+		<div class="flex justify-between">
 			<Soup />
-			<div>
-				<Salad />
-			</div>
+			<Salad />
 		</div>
 		<Curry />
 		<div class="grid grid-cols-2">

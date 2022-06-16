@@ -3,7 +3,7 @@
 		<div class="align-middle bg-black grid place-content-center h-20 hover:shadow-xl mx-auto my-8 px-16 w-1/4">
 			<h1 class="font-semibold text-center text-4xl text-white">Soup</h1>
 		</div>
-		<div class="border-8 border-black hover:shadow-xl ml-12 mr-6">
+		<div class="border-8 border-black hover:shadow-xl mx-12">
 			<div class="border-b-2 border-black border-dashed py-2">
 				<h3 class="font-bold text-center text-lg">Tom Yam Kha or Koong</h3>
 				<h3 class="font-medium text-center text-xs">[Chicken or Shrimp]</h3>
